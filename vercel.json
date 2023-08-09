@@ -6,9 +6,5 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
-    }
-  ]
+  "redirects": [{ "source": "/", "destination": "/index.html" }]
 }
